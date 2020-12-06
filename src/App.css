@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: linear-gradient(to right, #c0c0aa, #1cefff);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-part-1,.form-part-2,.confirm,.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+    background: none;
+	color: inherit;
+    border: black solid 2px;
+    margin: 10px;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    transition:0.2s;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover{
+    background: black;
+    color:white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+    background:none;
+    color: inherit;
+    border: black solid 2px;
+    margin: 10px;
+    padding: 10px;
+    font: inherit;
+    outline: inherit;
+    transition:0.2s;
+}
+input:focus{
+    background: black;
+    color:white;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin:10px;
 }
