@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/multistep-form-react/static/css/main.134e076c.chunk.css",
+    "main.js": "/multistep-form-react/static/js/main.11b70967.chunk.js",
+    "main.js.map": "/multistep-form-react/static/js/main.11b70967.chunk.js.map",
+    "runtime-main.js": "/multistep-form-react/static/js/runtime-main.b752ee9b.js",
+    "runtime-main.js.map": "/multistep-form-react/static/js/runtime-main.b752ee9b.js.map",
+    "static/js/2.4f597f82.chunk.js": "/multistep-form-react/static/js/2.4f597f82.chunk.js",
+    "static/js/2.4f597f82.chunk.js.map": "/multistep-form-react/static/js/2.4f597f82.chunk.js.map",
+    "index.html": "/multistep-form-react/index.html",
+    "static/css/main.134e076c.chunk.css.map": "/multistep-form-react/static/css/main.134e076c.chunk.css.map",
+    "static/js/2.4f597f82.chunk.js.LICENSE.txt": "/multistep-form-react/static/js/2.4f597f82.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b752ee9b.js",
+    "static/js/2.4f597f82.chunk.js",
+    "static/css/main.134e076c.chunk.css",
+    "static/js/main.11b70967.chunk.js"
+  ]
+}
