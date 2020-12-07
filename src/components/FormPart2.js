@@ -10,14 +10,14 @@ const FormPart2 = (props) => {
         props.prevStep();
     }
     return (
-        <div class='form-part-2'>
+        <div className='form-part-2'>
             <h1>Form Part 2</h1>
             <label>occupation</label>
-            <input value={props.occupation} onChange={(e)=>props.setOccupation(e.target.value)}></input>
+            <input value={props.values.occupation} onChange={(e)=>props.setValues({...props.values,occupation : e.target.value})}></input>
             <label>City</label>
-            <input value={props.city} onChange={(e)=>props.setCity(e.target.value)}></input>
+            <input value={props.values.city} onChange={(e)=>props.setValues({...props.values,city : e.target.value})}></input>
             <label>Bio</label>
-            <input value={props.bio} onChange={(e)=>props.setBio(e.target.value)}></input>
+            <input value={props.values.bio} onChange={(e)=>props.setValues({...props.values,bio : e.target.value})}></input>
             <div>
                 <button onClick={next}>Next</button>
                 <button onClick={prev}>Back</button>

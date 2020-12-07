@@ -10,26 +10,26 @@ const Confirm = (props) => {
         props.prevStep();
     }
     return (
-        <div class='confirm'>
+        <div className='confirm'>
             <h1>Confirm</h1>
             <ul>
                 <li>
-                    <p>First Name : {props.firstName}</p>
+                    <p>First Name : {props.values.firstName}</p>
                 </li>
                 <li>
-                    <p>Last Name : {props.lastName}</p>
+                    <p>Last Name : {props.values.lastName}</p>
                 </li>
                 <li>
-                    <p>Email : {props.email}</p>
+                    <p>Email : {props.values.email}</p>
                 </li>
                 <li>
-                    <p>Occupation : {props.occupation}</p>
+                    <p>Occupation : {props.values.occupation}</p>
                 </li>
                 <li>
-                    <p>City : {props.city}</p>
+                    <p>City : {props.values.city}</p>
                 </li>
                 <li>
-                    <p>Bio : {props.bio}</p>
+                    <p>Bio : {props.values.bio}</p>
                 </li>
             </ul>
             <div>
